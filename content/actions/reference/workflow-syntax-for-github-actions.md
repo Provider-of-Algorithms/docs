@@ -590,6 +590,7 @@ jobs:
         uses: docker://alpine:3.8
 ```
 
+##### Example using the {% data variables.product.prodname_github_container_registry %}
 ##### Example using a Github Container Registry
 #### Example using a Docker public registry action
 

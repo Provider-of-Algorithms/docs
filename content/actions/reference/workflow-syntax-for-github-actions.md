@@ -596,7 +596,7 @@ jobs:
 
 `docker://{host}/{image}:{tag}`
 
-A Docker image in a public registry.
+A Docker image in the {% data variables.product.prodname_github_container_registry %}.
 
 ```yaml
 jobs:

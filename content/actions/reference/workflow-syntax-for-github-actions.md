@@ -590,6 +590,7 @@ jobs:
         uses: docker://alpine:3.8
 ```
 
+{% if currentVersion == "free-pro-team@latest" %}
 ##### Example using the {% data variables.product.prodname_github_container_registry %}
 ##### Example using a Github Container Registry
 #### Example using a Docker public registry action
@@ -605,7 +606,7 @@ jobs:
       - name: My first step
         uses: docker://ghcr.io/OWNER/IMAGE_NAME
 ```
-
+{% endif %}
 ##### Example using a Docker public registry action
 
 `docker://{host}/{image}:{tag}`
